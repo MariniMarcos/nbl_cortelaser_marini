@@ -1,0 +1,15 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+@import "./variables/colores";
+@import "./variables/tipografia";
+@import "./secciones/nosotros";
+@import "./secciones/preguntas";
+@import "./secciones/servicio";
+@import "./secciones/contacto";
+@import "./secciones/mainIndex.scss";
+@import "./secciones/footer";
+@import "./secciones/media.scss"

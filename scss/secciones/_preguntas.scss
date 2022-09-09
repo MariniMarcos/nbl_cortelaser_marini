@@ -1,0 +1,84 @@
+.FAQ {
+    background-image: url(../img/fondo_resto.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    height: auto;
+    width: 100vw;
+  }
+  
+  .preguntas {
+    font-size: 40px;
+    color: rgb(0, 0, 0);
+    font-family: $tipografia-principal;
+    padding: 10px;
+    padding-bottom: 50px;
+    padding-top: 50px;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    height: auto;
+  
+    h1 {
+      padding: 20px;
+      width: 100%;
+      text-align: center;
+      font-family: $tipografia-principal;
+      font-size: 150%;
+    }
+  }
+  
+  .preguntas_cajas {
+    display: flex;
+    flex-direction: column;
+    width: 100vw;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  details {
+    border: 3px solid $naranja;
+    padding: 10px;
+    font-family: $tipografia-principal;
+    margin-top: 10px;
+    margin-bottom: 5px;
+    width: 500px;
+    cursor: pointer;
+    background-color: $naranja;
+    filter: opacity(0.8);
+    list-style: none;
+    border-radius: 30px;
+    &:hover {
+      background-color: $naranja;
+      filter: opacity(1);
+    }
+  }
+  
+  summary {
+    font-weight: 500;
+    color: rgb(0, 0, 0);
+    font-size: 20px;
+    padding: 5px;
+    list-style: none;
+    font-family: $tipografia-principal;
+    &:hover {
+      font-weight: bold;
+    }
+  }
+  
+  p, a, span, li {
+    font-size: 15px;
+    color: rgb(0, 0, 0);
+    text-align: justify;
+    list-style: none;
+    font-family: $tipografia-principal;
+  }
+  
+  details summary::-webkit-details-marker {
+    color: $naranja;
+  }
+  .materiales{
+    display: flex;
+    flex-direction: column;
+  }

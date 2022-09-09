@@ -1,0 +1,81 @@
+.servicio {
+    background-image: url(../img/fondo_resto.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    width: 100vw;
+    height: auto;
+  }
+  
+  .video {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    height: auto;
+    width: 100vw;
+  
+    h1, h2 {
+      font-size: 40px;
+      color: rgb(0, 0, 0);
+      font-family: $tipografia-principal;
+      align-items: center;
+      text-align: center;
+      padding: 10px;
+      margin: 10px;
+      font-weight: bold;
+    }
+  
+    p {
+      text-align: justify;
+      font-size: 20px;
+      color: rgb(0, 0, 0);
+      font-family: $tipografia-principal;
+      padding-right: 30px;
+      padding-left: 30px;
+      font-weight: 600;
+    }
+  
+    li {
+      text-align: justify;
+      font-size: 20px;
+      color: rgb(0, 0, 0);
+      font-family: $tipografia-principal;
+      font-weight: bold;
+    }
+  }
+  
+  .texto_servicio {
+    width: 40vw;
+  }
+  
+  .imagen_servicio {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    width: 50vw;
+  }
+  
+  .productos {
+    max-height: 100vh;
+  }
+  
+  .carousel-inner {
+    width: 40vw;
+    margin: 20px;
+  }
+  
+  .carousel-control-next-icon {
+    background-image: url(../img/btn_right.png);
+    color: none;
+  }
+  
+  .carousel-control-prev-icon {
+    background-image: url(../img/btn_left.png);
+  }
+  
+  .materiales {
+    display: flex;
+    flex-direction: column;
+  }
+  

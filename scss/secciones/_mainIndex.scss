@@ -1,0 +1,201 @@
+.menu {
+    background-color: $negro-barra;
+    height: 75px;
+    width: 100vw;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  .menu_servicio {
+    display: block;
+    list-style: none;
+    margin-right: 30px;
+  
+    li {
+      border-radius: 3px;
+      margin: 0 5px;
+  
+      a {
+        padding: 5px 10px;
+        text-decoration: none;
+        font-size: 20px;
+        display: block;
+        text-transform: uppercase;
+        color: rgb(0, 0, 0);
+        font-family: $tipografia-principal;
+      }
+    }
+  }
+  
+  .logo {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .logo_blanco {
+    font-size: 25px;
+    display: flex;
+    color: rgb(255, 255, 255);
+    font-family: $tipografia-principal;
+    font-weight: 500;
+    cursor: pointer;
+    align-items: center;
+  }
+  
+  .logo_imagen {
+    display: flex;
+    align-items: center;
+  
+    img {
+      align-items: center;
+      max-width: 60px;
+      max-height: 60px;
+    }
+  }
+  
+  .logo_negro {
+    color: rgb(0, 0, 0);
+    font-size: 35px;
+    padding: 0 80px;
+    font-weight: bold;
+  }
+  
+  .menu_items {
+    display: flex;
+    list-style: none;
+    align-items: center;
+  }
+  
+  ul {
+    margin-bottom: 0rem;
+    margin-right: 1rem;
+  }
+  
+  .menu_items li {
+    border-radius: 3px;
+    margin: 0 5px;
+  
+    a {
+      padding: 7px 13px;
+      text-decoration: none;
+      font-size: 18px;
+      display: block;
+      text-transform: uppercase;
+      color: rgb(255, 255, 255);
+      font-family: $tipografia-principal;
+  
+      &:hover {
+        padding: 7px 13px;
+        text-decoration: none;
+        font-size: 18px;
+        display: block;
+        text-transform: uppercase;
+        color: rgb(0, 0, 0);
+        font-family: $tipografia-principal;
+        background-color: $naranja;
+        border-radius: 25px;
+        transition: 0.3s;
+      }
+    }
+  }
+  
+  .background {
+    background-image: url(../img/corte_laser.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    max-width: 100%;
+    max-height: 50%;
+  }
+  
+  .caja {
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+    height: 40vw;
+    position: center;
+    height: 100vh;
+    align-items: center;
+    justify-content: center;
+  
+    h1 {
+      position: center;
+      font-size: 100px;
+      font-weight: bold;
+      color: rgb(0, 0, 0);
+      font-family: $tipografia-principal;
+      text-align: center;
+      padding: 10px;
+      margin-top: 100px;
+      display: none;
+    }
+  
+    h2 {
+      position: center;
+      font-size: 100px;
+      font-weight: bold;
+      color: rgb(0, 0, 0);
+      font-family: $tipografia-principal;
+      text-align: center;
+      padding: 10px;
+      display: none;
+    }
+  
+    button {
+      background-color: $naranja;
+      border-color: $naranja;
+      border-radius: 28px;
+      padding-top: 15px;
+      padding-bottom: 15px;
+      padding-left: 30px;
+      padding-right: 30px;
+      justify-content: center;
+      width: 200px;
+      margin: 0 auto;
+      margin-top: 27rem;
+  
+      &:hover {
+        background-color: rgba(143, 60, 0, 0.9);
+        border-color: rgb(143, 60, 0);
+        border-radius: 28px;
+        padding-top: 15px;
+        padding-bottom: 15px;
+        padding-left: 30px;
+        padding-right: 30px;
+        justify-content: center;
+        width: 200px;
+        margin: 0 auto;
+        margin-top: 27rem;
+        transition: 0.4s;
+      }
+    }
+  
+    a {
+      position: center;
+      font-size: 23px;
+      color: rgb(0, 0, 0);
+      font-family: $tipografia-principal;
+      font-weight: 500;
+      text-align: center;
+      padding: 10px;
+      max-width: 50px;
+  
+      &:hover {
+        position: center;
+        font-size: 23px;
+        color: rgb(255, 255, 255);
+        font-family: $tipografia-principal;
+        font-weight: 500;
+        text-align: center;
+        padding: 10px;
+        max-width: 50px;
+      }
+    }
+  }
+  
+  a:-webkit-any-link {
+    text-decoration: none;
+  }

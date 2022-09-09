@@ -1,0 +1,78 @@
+.footer {
+    text-decoration: none;
+    color: black;
+    background-color: $naranja;
+    min-height: 50px;
+    height: 20px;
+    width: 100%;
+    margin-top: auto;
+    justify-content: space-around;
+    align-items: center;
+    display: flex;
+  
+    a {
+      padding-left: 5px;
+      padding-right: 5px;
+      font-size: 17px;
+      color: black;
+      font-family: $tipografia-principal;
+      display: inline-block;
+      justify-content: space-between;
+      font-weight: 500;
+    }
+  }
+  
+  p, li, label, i {
+    padding-left: 5px;
+    padding-right: 5px;
+    font-size: 17px;
+    color: black;
+    font-family: $tipografia-principal;
+    display: inline-block;
+    justify-content: space-between;
+    font-weight: 500;
+  }
+  
+  .fa, .fab {
+    font-family: 'Font Awesome 5 Free';
+    font-weight: 600;
+    font-size: 30px;
+  }
+  
+  .fa-thumbs-down:before {
+    content: "\f165";
+  }
+  
+  .fa-thumbs-up:before {
+    content: "\f164";
+  }
+  
+  .fa-lg {
+    font-size: 1.33333em;
+    line-height: 0.75em;
+    vertical-align: -.0667em;
+  }
+  
+  .fa-xs {
+    font-size: .75em;
+  }
+  
+  .fa-sm {
+    font-size: .875em;
+  }
+  
+  .btn_menu {
+    margin-right: 30px;
+    font-size: 25px;
+    color: #fff;
+    cursor: pointer;
+    display: none;
+  }
+  
+  ul.show {
+    top: 65px;
+  }
+  
+  .figure {
+    width: 20vw;
+  }

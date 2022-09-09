@@ -1,0 +1,156 @@
+.nosotros_background {
+    background-image: url(../img/fondo_resto.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    height: auto;
+    width: 100vw;
+  }
+  
+  .nosotros {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    height: auto;
+  }
+  
+  .nosotros_texto {
+    width: 100vw;
+    padding-left: 15rem;
+    padding-right: 15rem;
+  }
+  
+  .nosotros {
+    h1, h2 {
+      font-size: 40px;
+      color: rgb(0, 0, 0);
+      font-family: $tipografia-principal;
+      align-items: center;
+      text-align: center;
+      padding: 10px;
+      margin: 10px;
+      font-weight: bold;
+    }
+  
+    p {
+      text-align: justify;
+      font-size: 20px;
+      color: rgb(0, 0, 0);
+      font-family: $tipografia-principal;
+      padding-right: 30px;
+      padding-left: 30px;
+      font-weight: 600;
+    }
+  
+    iframe {
+      text-align: center;
+      width: 100vw;
+      height: 25vw;
+    }
+  }
+  
+  .boton_instagram {
+    display: flex;
+    font-family: $tipografia-principal;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+  
+    button {
+      background-color: $naranja;
+      border-radius: 28px;
+      border-color: $naranja;
+      padding-top: 10px;
+      padding-bottom: 10px;
+      padding-left: 20px;
+      padding-right: 20px;
+      width: 150px;
+      font-family: $tipografia-principal;
+      margin-top: 5rem;
+  
+      &:hover {
+        background-color: rgb(143, 60, 0);
+        border-color: rgb(143, 60, 0);
+        border-radius: 28px;
+        padding-top: 10px;
+        padding-bottom: 10px;
+        padding-left: 20px;
+        padding-right: 20px;
+        width: 150px;
+        font-family: $tipografia-principal;
+        margin-top: 5rem;
+        transition: 0.4s;
+      }
+    }
+  
+    a {
+      position: center;
+      font-size: 17px;
+      color: rgb(0, 0, 0);
+      font-family: $tipografia-principal;
+      font-weight: 500;
+      text-align: center;
+  
+      &:hover {
+        position: center;
+        font-size: 17px;
+        color: rgb(255, 255, 255);
+        font-family: $tipografia-principal;
+        font-weight: 500;
+        text-align: center;
+      }
+    }
+  }
+  
+  .boton_cotiza {
+    display: flex;
+    font-family: $tipografia-principal;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+  
+    button {
+      background-color: $naranja;
+      border-radius: 28px;
+      border-color: $naranja;
+      padding-top: 10px;
+      padding-bottom: 10px;
+      padding-left: 20px;
+      padding-right: 20px;
+      width: 150px;
+      font-family: $tipografia-principal;
+      margin-bottom: 10rem;
+  
+      &:hover {
+        background-color: rgb(143, 60, 0);
+        border-color: rgb(143, 60, 0);
+        border-radius: 28px;
+        padding-top: 10px;
+        padding-bottom: 10px;
+        padding-left: 20px;
+        padding-right: 20px;
+        width: 150px;
+        font-family: $tipografia-principal;
+        margin-bottom: 10rem;
+        transition: 0.4s;
+      }
+    }
+  
+    a {
+      position: center;
+      font-size: 17px;
+      color: rgb(0, 0, 0);
+      font-family: $tipografia-principal;
+      font-weight: 500;
+      text-align: center;
+  
+      &:hover {
+        position: center;
+        font-size: 17px;
+        color: rgb(255, 255, 255);
+        font-family: $tipografia-principal;
+        font-weight: 500;
+        text-align: center;
+      }
+    }
+  }
