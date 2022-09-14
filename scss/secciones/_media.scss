@@ -355,6 +355,7 @@
       list-style: none;
       border-radius: 30px;
       margin: 5px;
+      z-index: 0;
     }
   
     summary {
@@ -467,6 +468,7 @@
     .carousel-inner {
       width: 90vw;
       margin: 20px;
+      z-index: 0;
     }
   
     .caja a {
