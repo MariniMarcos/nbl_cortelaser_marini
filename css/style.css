@@ -261,9 +261,13 @@ details summary::-webkit-details-marker {
 .productos {
   max-height: 100vh; }
 
+.carousel {
+  z-index: 0; }
+
 .carousel-inner {
   width: 40vw;
-  margin: 20px; }
+  margin: 20px;
+  z-index: 0; }
 
 .carousel-control-next-icon {
   background-image: url(../img/btn_right.png);
@@ -688,7 +692,9 @@ p, li, label, i {
   display: none; }
 
 ul.show {
-  top: 65px; }
+  top: 65px;
+  z-index: 1;
+  padding: 0; }
 
 .figure {
   width: 20vw; }
@@ -962,7 +968,8 @@ ul.show {
     width: 100vw;
     text-align: center;
     justify-content: center;
-    align-items: center; }
+    align-items: center;
+    z-index: 0; }
   details {
     border: 1px solid #f27822;
     font-family: "Montserrat";
@@ -971,7 +978,8 @@ ul.show {
     background-color: #f27822;
     list-style: none;
     border-radius: 30px;
-    margin: 5px; }
+    margin: 5px;
+    z-index: 0; }
   summary {
     font-weight: 600;
     color: black;
@@ -1047,7 +1055,8 @@ ul.show {
     margin-right: 5px; }
   .carousel-inner {
     width: 90vw;
-    margin: 20px; }
+    margin: 20px;
+    z-index: 0; }
   .caja a {
     position: center;
     font-size: 17px;

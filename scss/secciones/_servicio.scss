@@ -59,7 +59,10 @@
   .productos {
     max-height: 100vh;
   }
-  
+  .carousel{
+    z-index: 0;
+  }
+
   .carousel-inner {
     width: 40vw;
     margin: 20px;
